@@ -14,6 +14,7 @@
 </head>
 
 <body>
+  <!-- NAVBAR -->
   <nav class=" navbar navbar-expand-sm navbar-dark bg-dark">
     <div class="container">
       <a href="index.html" class="navbar-brand">Glozzom</a>
@@ -23,25 +24,81 @@
       <div class="collapse navbar-collapse" id="collapseNavbar">
         <ul class=" navbar-nav ml-auto text-uppercase">
           <li class=" nav-item active">
-            <a href="index.html" class="nav-link">Home</a>
+            <a href="index.html" class="nav-link mx-1">Home</a>
           </li>
           <li class=" nav-item">
-            <a href="about.html" class="nav-link">About Us</a>
+            <a href="about.html" class="nav-link mx-1">About Us</a>
           </li>
           <li class=" nav-item">
-            <a href="services.html" class="nav-link">Services</a>
+            <a href="services.html" class="nav-link mx-1">Services</a>
           </li>
           <li class=" nav-item">
-            <a href="blog.html" class="nav-link">Blog</a>
+            <a href="blog.html" class="nav-link mx-1">Blog</a>
           </li>
           <li class=" nav-item">
-            <a href="contact.html" class="nav-link">Contact</a>
+            <a href="contact.html" class="nav-link mx-1">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
+  <!-- SHOWCASE -->
+  <section id="showcase">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner">
+
+        <div class="carousel-item carousel-image-1 active">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h3 class="display-3">Heading One</h3>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut impedit, exercitationem
+                eligendi fugiat nihil vero expedita repellat dolor sequi porro.</p>
+              <a href="#" class="btn btn-danger btn-lg">Signup Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-2">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-center mb-5">
+              <h3 class="display-3">Heading Two</h3>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut impedit, exercitationem
+                eligendi fugiat nihil vero expedita repellat dolor sequi porro.</p>
+              <a href="#" class="btn btn-primary btn-lg">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-3">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h3 class="display-3">Heading Three</h3>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut impedit, exercitationem
+                eligendi fugiat nihil vero expedita repellat dolor sequi porro.</p>
+              <a href="#" class="btn btn-success btn-lg">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <!-- Controls -->
+        <a href="#myCarousel" class="carousel-control-prev" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+
+        <a href="#myCarousel" class="carousel-control-next" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+
+      </div>
+
+    </div>
+  </section>
 
   <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
@@ -53,6 +110,20 @@
   <script>
     // Get the current year for the copyright
     $('#year').text(new Date().getFullYear());
+
+    // Carousel silder config
+    $('.carousel').carousel({
+      interval: 5000,
+      pause: 'hover'
+    });
+
+
+    // $('#myCarousel').on('slide.bs.carousel', function () {
+    //   console.log('Slide!')
+    // })
+    // $('#myCarousel').on('slid.bs.carousel', function () {
+    //   console.log('Slid!')
+    // })
   </script>
 </body>
 
