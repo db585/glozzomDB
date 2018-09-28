@@ -50,7 +50,7 @@
   background-attachment: fixed;
   background-repeat: no-repeat; }
 
-#page-header {
+#db-page-header {
   position: relative;
   min-height: 200px;
   background: url(../img/image1.jpg);
@@ -69,5 +69,5 @@
 #faq a {
   text-decoration: none; }
 
-#main-footer {
+#db-main-footer {
   background: #000; }
