@@ -14,3 +14,60 @@
 .carousel .carousel-image-3 {
   background: url("../img/image3.jpg");
   background-size: cover; }
+
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url(../img/lights.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+  #home-heading .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); }
+
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background: url(../img/media.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+  #video-play .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); }
+
+#video-play1 {
+  position: relative;
+  min-height: 200px;
+  background: url(../img/media.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
+#page-header {
+  position: relative;
+  min-height: 200px;
+  background: url(../img/image1.jpg);
+  background-position: 0 -370px;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
+.about-img {
+  margin-top: -50px; }
+
+#faq .card {
+  border: #444; }
+#faq .card-body,
+#faq .card-header {
+  background: #333; }
+#faq a {
+  text-decoration: none; }
+
+#main-footer {
+  background: #000; }

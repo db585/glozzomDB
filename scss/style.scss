@@ -1,4 +1,5 @@
 .navbar {
+
   .nav-link {
     font-size: 14px;
   }
@@ -29,4 +30,91 @@
     background-size: cover
   }
 
+}
+
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url(../img/lights.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  //NOTE: In this case this class doens't work for all html divs
+  // Even I made a link to Brad's final style.css and it doesn't help
+  // I have to nest it to each parent who has .dark-overlay
+  .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+  }
+}
+
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background: url(../img/media.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  //NOTE: In this case this class doens't work for all html divs
+  // Even I made a link to Brad's final style.css and it doesn't help
+  // I have to nest it to each parent who has .dark-overlay
+  .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+}
+
+#video-play1 {
+  position: relative;
+  min-height: 200px;
+  background: url(../img/media.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+
+#page-header {
+  position: relative;
+  min-height: 200px;
+  background: url(../img/image1.jpg);
+  background-position: 0 -370px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+}
+
+.about-img {
+  margin-top: -50px;
+}
+
+#faq {
+
+  .card {
+    border: #444;
+  }
+
+  .card-body,
+  .card-header {
+    background: #333;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+}
+
+
+
+#main-footer {
+  background: #000;
 }
